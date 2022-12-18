@@ -1,0 +1,32 @@
+/*--MENU--*/
+#kuromenu{background:#f0b2a9;padding:4px;}
+#kuromenu{overflow:hidden;clear:both}
+#kuromenu ul{list-style:none;padding:0;margin:0;font-weight:bold;}
+#kuromenu ul li{display:block;float:left;margin:0}
+#kuromenu ul li a{color:#000}
+#kuromenu ul li a{display:block;font-size:13px;padding:15px 15px;}
+#kuromenu ul li a:hover{color:#000}
+#kuromenu ul li:hover{color:#000;background:#d4686f;border-radius:5px}
+#kuromenu ul li:hover ul{visibility:visible}
+#kuromenu ul li ul{visibility:hidden;position:absolute;z-index:9999;border-top:4px solid #f0b2a9;padding:4px;background:#d4686f;}
+#kuromenu ul li ul li{float:none;background:#d4686f}
+#kuromenu ul li ul li a{font-size:12px;}
+#kuromenu ul li ul li a:hover{background:#f0b2a9}
+#pencari{margin-left:5px;background:#fff;margin-bottom:5px;text-align:center}
+#search{padding:5px}
+#nyarinya input[type="text"]{border:0;padding:10px;background:#fff;font-weight:bold;color:#666;font-size:13px;margin:0}
+#search-top{padding:5px;overflow:hidden;text-align:right;margin:0}
+#nyarinya{float:right}
+#hidding2{display:none}
+#hidding2{background:#d4686f;color:#fff;padding:13px;font-size:16px;cursor:pointer}
+.socialmedia{float:right}
+#hidding2 input:checked ~ #kuromenu ul{display:block}
+@media only screen and (max-width:1000px){
+#kuromenu ul li{float:none}
+#kuromenu ul li ul{position:inherit;visibility:visible;background:#34495e}
+#kuromenu ul li ul li a{padding:10px 0 10px 45px}
+#kuromenu ul li:hover a{background:inherit}
+#kuromenu ul{display:none;float:none;clear:both}
+#hidding1,#hidding2{display:block;clear:both;font-weight:bold}
+#hidding2{float:left}.displaying{display:inherit!important}
+}
